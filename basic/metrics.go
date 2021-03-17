@@ -249,6 +249,6 @@ var Metrics = []Metric{
 	{
 		cwName:         "ReplicaLag",
 		prometheusName: "aws_rds_replica_lag",
-		prometheusHelp: "The amount of time a read replica DB instance lags behind the source DB instance. Units: Seconds",
+		prometheusHelp: "The amount of time a read replica DB instance lags behind the source DB instance. Unit: Seconds",
 	},
 }
